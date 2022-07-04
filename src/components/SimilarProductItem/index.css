@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.similar-products-container {
+  list-style: none;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+}
+.alignment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+.image-product {
+  height: 300px;
+  width: 250px;
+  padding: 0;
+}
+
+.similar-product-title {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 21px;
+}
+.title-brand-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.similar-product-brand {
+  color: #475569;
+  font-family: 'Roboto';
+  margin-top: 0;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.price-rating-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.similar-product-price {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.rating-star-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3b82f6;
+  width: 50px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.similar-product-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.star-icon1 {
+  height: 20px;
+  width: 20px;
+}
